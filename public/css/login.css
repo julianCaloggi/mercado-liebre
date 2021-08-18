@@ -5,6 +5,36 @@ input{
     border: 0;
 }
 
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+   
+
+.searchbar input,
+.searchbar button {
+
+    background-color: white;
+    border: none;
+    height: 30px;
+}
+
+.searchbar {
+    margin: auto;
+    width: auto;
+    width: 220px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.button-search{
+    background-color: white;
+    border: none;
+    height: 30px;
+}
+
 .enviar{
     width: 50%;
     background-color: #2558ff;

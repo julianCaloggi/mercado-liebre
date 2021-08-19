@@ -286,7 +286,7 @@ footer{
     }
 
     .nombre{
-        display: none;
+        opacity: 0;
     }
 
     .product-wrapper:hover{
@@ -295,7 +295,7 @@ footer{
 
     .product-wrapper:hover .nombre{
       cursor: pointer;
-      display:flex;
+      opacity: 1;
     }
 
     .truck-icon{

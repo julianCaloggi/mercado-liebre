@@ -1,310 +1,310 @@
-*{
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
-   
 
 .searchbar input,
 .searchbar button {
-
-    background-color: white;
-    border: none;
-    height: 30px;
+  background-color: white;
+  border: none;
+  height: 30px;
 }
 
 .searchbar {
-    margin: auto;
-    width: 19%;
-    height: 30px;
-    background-color: white;
-    border-radius: 10px;
-    overflow: hidden;
+  margin: auto;
+  width: 19%;
+  height: 30px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
-.button-search{
-    background-color: white;
-    border: none;
-    height: 30px;
+.button-search {
+  background-color: white;
+  border: none;
+  height: 30px;
 }
 
-body{
- padding: 0;
- margin: 0;
+body {
+  padding: 0;
+  margin: 0;
 }
 
-#main-content{
-    padding: 0 5%;
-    width: 100%;
-    box-sizing: border-box;
+#main-content {
+  padding: 0 5%;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.main-header{
-    background-color: #EAC926;
-    padding: 20px;
+.main-header {
+  background-color: #eac926;
+  padding: 20px;
+  background-color: #eac926;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
 }
 
-.logo{
-    width: 300px;
+.logo {
+  width: 300px;
 }
 
-img{
-    width: 100%;
-    border: solid 1px #ebebebeb;
+img {
+  width: 100%;
+  border: solid 1px #ebebebeb;
 }
 
-.baner{
-    width:100%;
+.baner {
+  width: 100%;
 }
 
-.copy-header{
-    font-weight: 400;
-    text-align: center;
+.copy-header {
+  font-weight: 400;
+  text-align: center;
 }
 
-.verde{
-    color: seagreen;
-    margin-top: 0;
+.verde {
+  color: seagreen;
+  margin-top: 0;
 }
 
-.linea{
-    margin-bottom: 0;
+.linea {
+  margin-bottom: 0;
 }
 
-.lista-v{
-    color: black;
+.lista-v {
+  color: black;
 }
 
-.truck-icon{
-    padding: 5px;
-    display: block;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #39b54a;
-    border-radius: 50%;
-    font-size: 16px;
-    position: absolute;
-    right: 15px;
-    top: -35px;
+.truck-icon {
+  padding: 5px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  border-radius: 50%;
+  font-size: 16px;
+  position: absolute;
+  right: 15px;
+  top: -35px;
 }
 
 .fa-truck:before {
-    color: green;
-    content: "\f0d1";
+  color: green;
+  content: "\f0d1";
 }
 
-.venta{
-    background: #f8f8f8;
+.venta {
+  background: #f8f8f8;
+  border: solid 1px #ebebebeb;
+  margin: 10px;
+  padding: 15px;
+}
+
+.hamburger-button {
+  background-color: #03264c;
+  color: #fff;
+  display: block;
+  max-width: 50px;
+  padding: 15px 0;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+  margin: auto;
+}
+
+.texto {
+  padding: 0px 70px;
+  margin-top: 0px;
+}
+
+.main-navbar {
+  display: none;
+}
+
+.main-navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-navbar a {
+  text-decoration: none;
+  color: #222222;
+  display: inline-block;
+  padding: 5px 0;
+  font-size: 17px;
+}
+
+footer {
+  margin: 0 40px;
+  color: #000000;
+}
+
+.center {
+  text-align: center;
+}
+
+.produc-content {
+  position: relative;
+}
+
+.product-wrapper {
+  padding: 15px;
+  margin-bottom: 40px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 10px rgb(100 100 100);
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.icon-foter {
+  color: #0668e3;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 10px;
+  background-color: #f2f2f2;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.center-copi {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .main-header-top-bar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .copy-header {
+    max-width: 350px;
+    text-align: right;
+  }
+
+  .hamburger-button {
+    display: none;
+  }
+
+  .main-navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .main-navbar ul {
+    display: flex;
+  }
+
+  .main-navbar li {
+    margin: 0 5px;
+  }
+
+  .product-wrapper {
+    padding: 15px;
+    width: 45%;
+    margin-left: 5%;
+  }
+
+  .icon-foter:hover {
+    color: #0022aa;
+    cursor: pointer;
+  }
+
+  .venta {
+    background: #ffffff;
     border: solid 1px #ebebebeb;
     margin: 10px;
     padding: 15px;
-}
+  }
 
-.hamburger-button{
-    background-color: #03264C ;
-    color: #fff;
-    display: block;
-    max-width: 50px;
-    padding: 15px 0;
-    border-radius: 8px;
-    text-align: center;
-    font-size: 18px;
-    margin: auto;
-}
-
-.texto{
-    padding: 0px 70px;
-    margin-top: 0px;
-}
-
-.main-navbar{
-    display: none;
-}
-
-.main-navbar ul{
- list-style: none;
- margin: 0;
- padding: 0;
-}
-
-.main-navbar a{
-    text-decoration: none;
-    color: #222222;
-    display: inline-block;
-    padding: 5px 0;
-    font-size: 17px;
-}
-
-footer{
-    margin: 0 40px;
-    color: #000000;
-}
-
-.center{
-    text-align: center;
-}
-
-.produc-content{
-    position: relative;
-}
-
-.product-wrapper{
-    padding: 15px;
-    margin-bottom: 40px;
-    border: 1px solid white;
-    box-shadow: 0px 0px 10px rgb(100 100 100);
-}
-
-
-.flex{
+  footer {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .center {
+    width: 50%;
+  }
+
+  .center-copi {
+    width: 100%;
+  }
 }
 
-h4{
-    font-size: 20px;
-    margin-bottom: 0px;
-}
+@media (min-width: 1200px) {
+  .main-header-top-bar,
+  .main-navbar {
+    max-width: 1200px;
+    margin: auto;
+  }
 
-.icon-foter{
-    color: #0668e3;
-    font-size: 40px;
-    margin-top: 10px;
-}
+  .main-header-top-bar {
+    align-items: center;
+  }
 
-footer{
-    margin-top: 10px;
-    background-color: #f2f2f2;
-    margin-left: 10px;
-    margin-right: 10px;
-}
+  .main-navbar li {
+    margin: 0 10px;
+  }
 
-.center-copi{
-    text-align: center;
-}
+  .main-navbar a {
+    font-size: 19px;
+  }
 
-@media (min-width:768px) {
+  .main-navbar {
+    margin-top: 30px;
+  }
 
-    .main-header-top-bar{
-        display: flex;
-        justify-content: space-between;
-    }
+  .copy-header {
+    max-width: none;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+  }
 
-    .copy-header{
-        max-width: 350px;
-        text-align: right;
-    }
+  .logo {
+    width: 250px;
+  }
 
-    .hamburger-button{
-        display: none;
-    } 
+  .product-wrapper {
+    padding: 15px;
+    width: 23%;
+    margin-left: 2%;
+    box-shadow: none;
+  }
 
-    .main-navbar{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 10px;
-    }
+  .nombre {
+    opacity: 0;
+  }
 
-    .main-navbar ul{
-        display: flex;
-    }
+  .product-wrapper:hover {
+    box-shadow: 0px 0px 10px rgb(100 100 100);
+  }
 
-    .main-navbar li{
-        margin: 0 5px;
-    }
-    
-    .product-wrapper{
-        padding: 15px;
-        width: 45%;
-        margin-left: 5%;
-    }
+  .product-wrapper:hover .nombre {
+    cursor: pointer;
+    opacity: 1;
+  }
 
-    .icon-foter:hover{
-        color: #0022AA;
-        cursor: pointer;
-    }
+  .truck-icon {
+    transition: transform ease-in-out 500ms;
+  }
 
-    .venta{
-        background: #ffffff;
-        border: solid 1px #ebebebeb;
-        margin: 10px;
-        padding: 15px;
-    }
-
-    footer{
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .center{
-        width: 50%;
-    }
-
-    .center-copi{
-        width: 100%;
-    }
-}
-
-@media (min-width:1200px) {
-    
-    .main-header-top-bar , .main-navbar{
-        max-width: 1200px;
-        margin: auto;
-    }
-
-    .main-header-top-bar{
-        align-items: center;
-    }
-
-    .main-navbar li{
-        margin: 0 10px;
-    }
-
-    .main-navbar a{
-        font-size: 19px;
-    }
-
-    .main-navbar{
-        margin-top: 30px;
-    }
-
-    .copy-header{
-        max-width: none;
-        font-size: 18px;
-        font-weight: 400;
-        margin: 0;
-    }
-
-    .logo{
-        width: 250px;
-    }
-
-    .product-wrapper{
-        padding: 15px;
-        width: 23%;
-        margin-left: 2%;
-        box-shadow: none;
-    }
-
-    .nombre{
-        opacity: 0;
-    }
-
-    .product-wrapper:hover{
-        box-shadow: 0px 0px 10px rgb(100 100 100);
-    }
-
-    .product-wrapper:hover .nombre{
-      cursor: pointer;
-      opacity: 1;
-    }
-
-    .truck-icon{
-        transition: transform ease-in-out 500ms;
-    }
-
-    .product-wrapper:hover .truck-icon{
-        transform:rotate(360deg);
-    }
-
-    
+  .product-wrapper:hover .truck-icon {
+    transform: rotate(360deg);
+  }
 }

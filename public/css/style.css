@@ -247,6 +247,10 @@ footer {
     margin: auto;
   }
 
+  .baner{
+    margin-top: 165px;
+  }
+
   .main-header{
     position: fixed;
     top: 0;
